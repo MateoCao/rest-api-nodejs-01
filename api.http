@@ -21,17 +21,18 @@ Content-Type: application/json
   "genre": ["Horror"]
 }
 
+### Borrar una pelicula 
+DELETE http://localhost:1234/movies/dcdd0fad-a94c-4810-8acc-5f108d3b18c3
+
+
 ### Actualizar una  pelicula
-PATCH http://localhost:1234/movies/dcdd0fad-a94c-4810-8acc-5f108d3b18c3
+PATCH http://localhost:1234/movies/7e3fd5ab-60ff-4ae2-92b6-9597f0308d1
 Content-Type: application/json
 
 {
-  "SQL": "SELECT * FROM USERS",
-  "id": 1,
-  "title":  "Bue",
+  "title":  "Bueasdsa",
   "year": 1998,
   "genre": [
-    "Policias",
     "Action",
     "Horror"
   ]
